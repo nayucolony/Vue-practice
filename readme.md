@@ -6,4 +6,6 @@ Vue.jsの練習用リポジトリ
 
 [GitHub & BitBucket HTML Preview](http://htmlpreview.github.io/)というサービスを使って、デモを見れるようにしてます。
 
+
+## 作ったもの
 [gallery](http://htmlpreview.github.io/?https://github.com/nayucolony/Vue-practice/blob/master/gallery/index.html)
