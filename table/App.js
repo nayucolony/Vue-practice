@@ -18,6 +18,9 @@ const vm = new Vue({
       <td v-bind:class="order">{{data.name}}</td>
       <td v-bind:class="order">{{data.birth}}</td>
       <td v-bind:class="order">{{data.tel}}</td>
+      <td v-bind:class="order">{{data.tel}}</td>
+      <td v-bind:class="order">{{data.tel}}</td>
+      <td v-bind:class="order">{{data.tel}}</td>
       <td v-bind:class="order">{{data.mail}}</td>
     </tr>
   </table>
