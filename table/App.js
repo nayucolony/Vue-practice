@@ -15,6 +15,10 @@ const vm = new Vue({
     </tr>
     <tr v-for="data in datas">
       <td v-bind:class="order">{{data.key}}</td>
+      <td v-bind:class="order">{{data.key}}</td>
+      <td v-bind:class="order">{{data.key}}</td>
+      <td v-bind:class="order">{{data.key}}</td>
+      <td v-bind:class="order">{{data.key}}</td>
       <td v-bind:class="order">{{data.name}}</td>
       <td v-bind:class="order">{{data.birth}}</td>
       <td v-bind:class="order">{{data.tel}}</td>
