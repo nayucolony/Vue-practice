@@ -9,7 +9,7 @@ new Vue({
     }
   },
   methods: {
-    update: _.debounce(function (e) {
+    update: _.throttle(function (e) {
       this.input = e.target.value
     }, 300)
   }
