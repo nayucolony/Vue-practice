@@ -8,11 +8,22 @@ const vm = new Vue({
       <th>Birthday</th>
       <th>Phone</th>
       <th>Mail</th>
+      <th>Mail</th>
+      <th>Mail</th>
+      <th>Mail</th>
+      <th>Mail</th>
     </tr>
     <tr v-for="data in datas">
       <td v-bind:class="order">{{data.key}}</td>
+      <td v-bind:class="order">{{data.key}}</td>
+      <td v-bind:class="order">{{data.key}}</td>
+      <td v-bind:class="order">{{data.key}}</td>
+      <td v-bind:class="order">{{data.key}}</td>
       <td v-bind:class="order">{{data.name}}</td>
       <td v-bind:class="order">{{data.birth}}</td>
+      <td v-bind:class="order">{{data.tel}}</td>
+      <td v-bind:class="order">{{data.tel}}</td>
+      <td v-bind:class="order">{{data.tel}}</td>
       <td v-bind:class="order">{{data.tel}}</td>
       <td v-bind:class="order">{{data.mail}}</td>
     </tr>
@@ -35,7 +46,7 @@ const vm = new Vue({
   },
   methods:{
     setOrder:()=>{
-      
+
     }
   }
 })
