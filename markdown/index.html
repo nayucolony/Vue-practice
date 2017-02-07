@@ -5,9 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>markdown</title>
-  <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -15,6 +12,9 @@
     <textarea :value="input" @input="update"></textarea>
     <div v-html="compiledMarkdown"></div>
   </div>
+  <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
   <script src="App.js"></script>
 </body>
 </html>
